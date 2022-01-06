@@ -1,0 +1,4 @@
+from .users import UserModelSerializer, LoginSerializer, SignUpSerializer
+from .records import CategoryModelSerializer, RecordModelSerializer, RecordRetrieveSerializer
+from .municipalities import CollegeModelSerializer, MunicipalityRetrieveSerializer, MunicipalityModelSerializer
+from .boards import BoardModelSerializer, BoardRetrieveSerializer, ExchangeModelSerializer, ExchangeRetrieveSerializer

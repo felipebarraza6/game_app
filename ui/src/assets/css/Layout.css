@@ -1,0 +1,19 @@
+
+.site-layout-content {
+    background: #ffffff;
+    min-height: 280px;
+}
+.ant-layout-content{
+    background:white;
+    min-height: 100vh;
+  }
+  .ant-layout-footer{
+    background:#001529;
+    color: white
+  }
+.element-menu {
+    position: 'absolute';
+    top:35;
+    right:200;
+}
+

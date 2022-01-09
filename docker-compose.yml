@@ -27,5 +27,3 @@ services:
             image: cowork_ui
             ports:
                 - "80:80"
-            depends_on:
-                - django        

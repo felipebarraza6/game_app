@@ -52,6 +52,9 @@ const Login = () => {
         try{
             if(!objUser.isSignUp){
                 const response = await api.authenticated.login(objUser)
+                if(response){
+                    window.location.reload() 
+                }
                 dispatch({
                     type:'LOGIN',
                     payload:response

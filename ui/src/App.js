@@ -26,6 +26,7 @@ function App() {
 
 
     if(user && access_token){
+      
       dispatch({
         type: 'LOGIN',
         payload: {

@@ -24,7 +24,6 @@ const SingleBoard = ({board, setRetrieve}) => {
         setData(rq)
     }
 
-    
 
     return(<Row>
         <Col span={12}>
